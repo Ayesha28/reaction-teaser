@@ -4,21 +4,37 @@
     <style type="text/css">
 	#shape{
 	height:200px;
-	width:200px;
+	width:100%;
 	
 	background-color:red;
 	display:none;
 	position:relative;
 	}
-	
+	body{
+		margin: 0;
+	}
+	h1 {
+		margin: 0px;
+		text-align: center;
+		color: white;
+		background-color: black;
+		padding: 10px;
+	}
+	p {
+		text-align: center;
+		color: white;
+		background-color: black;
+		margin: 0px;
+		padding: 10px;
+	}
 	
 	
 	</style>
 </head>
 <body>
 <h1>Test Your Reactions!!</h1>
-<p>Click on the boxes and circles as quickly as you can!<p>
-<p><b>Your time :<span id="time"></span></b></p>
+<p style="font-size: 30px;">Click on the boxes and circles as quickly as you can!<p>
+<p style="font-size: 30px;"><b>Your time :<span id="time"></span></b></p>
 <div id ="shape"></div>
 	<script type="text/javascript" src="script.js"></script>
 
